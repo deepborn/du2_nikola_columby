@@ -1,0 +1,43 @@
+﻿Předtím, než začnete programovat, rozmyslete se, jak by měl program fungovat a
+pro ucelené části používejte funkce. Napište si kostru programu a pak
+implementujte jednotlivé funkce, průběžně ověřujte, zda se chovají dle
+očekávání.
+
+## Bodování
+  * 1 b za funkční aplikaci pro korektní vstupy
+  * 4 b za funkční aplikaci pro nekorektní vstupy
+  * 3 b za kvalitu kódu
+  * 2 b za dokumentaci
+
+Kvalita kódu nyní zahrnuje i komentáře v kódu, více o jednotlivých kategoriích v
+minulém zadání.
+
+## Bonusové body
+
+### Používání Gitu pro vývoj (1 b)
+Pokud budete pro verzování používat Git, vytvořte si účet na GitHubu nebo jiné
+podobné stránce a úkol můžete odevzdat přes něj. Kromě samotného odevzdání je
+třeba, aby byl repozitář používán i pro vývoj, tedy by měl obsahovat průběžně
+commitovanou práci. Repozitář by měl obsahovat jak program, tak případný soubor
+s dokumentací, za hodnocenou verzi se počítá poslední commit pushnutý na GitHub
+před deadlinem. Repozitář nemusí, ani by neměl, obsahovat velká vstupní data,
+naopak přítomnost malých vstupů pro účely testů je vhodná. Pokud budete potřebovat pomoct,
+pište mi.
+
+### Vykreslování průběhu algoritmu (2 b)
+Program na začátku vykreslí všechny vstupní body a následně vykresluje, kde
+právě probíhá dělení. Body jsou vykresleny tak, aby vhodně vyplňovaly okno. Může
+se vám hodit funkce `turtle.screensize()`.
+
+### Další algoritmy na dělení dat (1 -- 5 b dle složitosti)
+Na začátku programu bude konstantou `ALGORITHM` zvolen algoritmus, kterým se
+bude provádět dělení bodů. Můžete použít libovolný vhodný algoritmus, podle jeho
+obtížnosti za něj získáte 1 -- 5 bodů (pokud mi dopředu napíšete, který
+algoritmus budete implementovat, odpovím vám, kolik bodů za něj bude).
+Implementace quadtree je samozřejmě povinná bez bonusových bodů.
+
+
+[1]: https://en.wikipedia.org/wiki/Quadtree
+[2]: https://tools.ietf.org/html/rfc7946
+[3]: https://tools.ietf.org/html/rfc7946#section-3.3
+[4]: https://overpass-turbo.eu/s/E9v
